@@ -32,6 +32,7 @@
 - `Config/` 工程配置（DefaultEngine/DefaultGame/DefaultInput 等）。
 - `Content/Maps/L_FinalMap.umap` 当前默认启动/打包图（白模，项目所有者维护）。
 - `Content/DoubleExposure/` 本作自有游戏内容。
+- `Content/DoubleExposure/Materials/` 自制移动 VR 河水材质（2026-11-18）：`M_River_Mobile`（Translucent + Default Lit + TLM_Surface，双 Panner 法线 + SceneDepth 深度渐变 + 岸线泡沫 + Fresnel，全参数化）+ `MI_River` 实例 + `T_RiverNormal` 程序化无缝法线 512²（生成脚本 `Tools/water/gen_normal.py`）。刻意不用 SingleLayerWater——其在 VR 前向 + 实例化立体下不渲染（UE5.4+ 已知问题）。
 - `Content/XRFramework/` VR 模板核心（角色/抓握/交互，见 §9）；`Content/LevelPrototyping|Weapons|XRMannequins|VRSpectator/` 模板依赖资源包（按 MountName 挂载，勿改名）。
 - `Content/Fab/`、`Content/MWLandscapeAutoMaterial/` 第三方商城资产（**仓库排除**，见 §12）。
 - `Source/DoubleExposure/` 最小空游戏模块（Runtime）。
