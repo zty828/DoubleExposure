@@ -1,0 +1,3 @@
+RuntimeError: line 16: AttributeError: 'HitResult' object has no attribute 'get_hit_actor'
+Traceback (script frames only):
+  File "<script>", line 16, in <module>

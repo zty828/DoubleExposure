@@ -1,0 +1,48 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# UE binary assets
+*.uasset binary
+*.umap binary
+*.ubulk binary
+*.uexp binary
+*.uptnl binary
+
+# Media / fonts / archives
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.bmp binary
+*.hdr binary
+*.exr binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.mp4 binary
+*.webm binary
+*.ttf binary
+*.otf binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.apk binary
+*.obb binary
+*.pak binary
+
+# Native binaries
+*.so binary
+*.a binary
+*.lib binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.dylib binary
+
+# Windows scripts: never normalize (CRLF conversion broke .bat before)
+*.bat -text
+*.cmd -text
+
+# Unix scripts
+*.sh text eol=lf
+*.py text eol=lf

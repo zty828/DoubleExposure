@@ -1,0 +1,73 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.9",
+  "Category": "Game",
+  "Description": "Double Exposure - PICO VR linear puzzle / light combat. PICO 2026 Developer Competition, Immersive Content track.",
+  "Modules": [
+    {
+      "Name": "DoubleExposure",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "PICOOpenXR",
+      "Enabled": true,
+      "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/2debc028cd90414f97f308c74a3d6a32",
+      "SupportedTargetPlatforms": [
+        "Win64",
+        "Linux",
+        "Android"
+      ]
+    },
+    {
+      "Name": "OpenXR",
+      "Enabled": true
+    },
+    {
+      "Name": "XRBase",
+      "Enabled": true
+    },
+    {
+      "Name": "PICOController",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64",
+        "Linux",
+        "Android"
+      ]
+    },
+    {
+      "Name": "OpenXREyeTracker",
+      "Enabled": true
+    },
+    {
+      "Name": "OpenXRHandTracking",
+      "Enabled": true
+    },
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorToolset",
+      "Enabled": true
+    },
+    {
+      "Name": "BlueprintToolsets",
+      "Enabled": true
+    },
+    {
+      "Name": "Tripo3DUEBridge",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64"
+      ]
+    }
+  ],
+  "TargetPlatforms": [
+    "Android",
+    "Windows"
+  ]
+}

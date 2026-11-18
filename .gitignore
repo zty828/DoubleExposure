@@ -1,0 +1,31 @@
+# Unreal Engine generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.code-workspace
+
+# Plugin build output (source + content are tracked)
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+# Third-party marketplace assets (Fab EULA: no raw redistribution; obtain from fab.com)
+Content/Fab/
+Content/MWLandscapeAutoMaterial/
+
+# Local dev noise
+Content/Developers/
+Content/Collections/
+*.log
